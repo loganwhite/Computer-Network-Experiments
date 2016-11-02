@@ -1,0 +1,146 @@
+ vid_streamutil
+
+ Timestamp is 57d7f16e (Tue Sep 13 20:30:38 2016)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000814H .text                   CODE
+ 0002:00000000 000000a8H .idata$5                DATA
+ 0002:000000a8 00000004H .CRT$XCA                DATA
+ 0002:000000ac 00000004H .CRT$XCAA               DATA
+ 0002:000000b0 00000004H .CRT$XCZ                DATA
+ 0002:000000b4 00000004H .CRT$XIA                DATA
+ 0002:000000b8 00000004H .CRT$XIAA               DATA
+ 0002:000000bc 00000004H .CRT$XIY                DATA
+ 0002:000000c0 00000004H .CRT$XIZ                DATA
+ 0002:000000c8 00000050H .rdata                  DATA
+ 0002:00000120 00000004H .rdata$sxdata           DATA
+ 0002:00000124 00000004H .rtc$IAA                DATA
+ 0002:00000128 00000004H .rtc$IZZ                DATA
+ 0002:0000012c 00000004H .rtc$TAA                DATA
+ 0002:00000130 00000004H .rtc$TZZ                DATA
+ 0002:00000138 0000005cH .xdata$x                DATA
+ 0002:00000194 00000028H .idata$2                DATA
+ 0002:000001bc 00000014H .idata$3                DATA
+ 0002:000001d0 000000a8H .idata$4                DATA
+ 0002:00000278 000002ceH .idata$6                DATA
+ 0002:00000546 00000000H .edata                  DATA
+ 0003:00000000 00000098H .data                   DATA
+ 0003:00000098 0000036cH .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       _main                      00401000 f   vid_streamutil.obj
+ 0001:000002b4       _mainCRTStartup            004012b4 f   MSVCRT:crtexe.obj
+ 0001:000002be       ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z 004012be f   MSVCRT:unhandld.obj
+ 0001:00000300       ___CxxSetUnhandledExceptionFilter 00401300 f   MSVCRT:unhandld.obj
+ 0001:0000030e       __amsg_exit                0040130e f   MSVCRT:MSVCR90.dll
+ 0001:00000314       __onexit                   00401314 f   MSVCRT:atonexit.obj
+ 0001:000003b9       _atexit                    004013b9 f   MSVCRT:atonexit.obj
+ 0001:000003d0       __RTC_Initialize           004013d0 f   MSVCRT:_initsect_.obj
+ 0001:000003f6       __RTC_Terminate            004013f6 f   MSVCRT:_initsect_.obj
+ 0001:0000041c       __XcptFilter               0040141c f   MSVCRT:MSVCR90.dll
+ 0001:00000430       __ValidateImageBase        00401430 f   MSVCRT:pesect.obj
+ 0001:00000470       __FindPESection            00401470 f   MSVCRT:pesect.obj
+ 0001:000004c0       __IsNonwritableInCurrentImage 004014c0 f   MSVCRT:pesect.obj
+ 0001:0000057e       __initterm                 0040157e f   MSVCRT:MSVCR90.dll
+ 0001:00000584       __initterm_e               00401584 f   MSVCRT:MSVCR90.dll
+ 0001:0000058c       __SEH_prolog4              0040158c f   MSVCRT:sehprolg4.obj
+ 0001:000005d1       __SEH_epilog4              004015d1 f   MSVCRT:sehprolg4.obj
+ 0001:000005e5       __except_handler4          004015e5 f   MSVCRT:chandler4gs.obj
+ 0001:0000060a       __setdefaultprecision      0040160a f   MSVCRT:fp8.obj
+ 0001:00000635       __setargv                  00401635 f   MSVCRT:dllargv.obj
+ 0001:00000635       __matherr                  00401635 f   MSVCRT:merr.obj
+ 0001:00000638       ___security_init_cookie    00401638 f   MSVCRT:gs_support.obj
+ 0001:000006ce       ?terminate@@YAXXZ          004016ce f   MSVCRT:MSVCR90.dll
+ 0001:000006d4       __unlock                   004016d4 f   MSVCRT:MSVCR90.dll
+ 0001:000006da       ___dllonexit               004016da f   MSVCRT:MSVCR90.dll
+ 0001:000006e0       __lock                     004016e0 f   MSVCRT:MSVCR90.dll
+ 0001:000006e6       @__security_check_cookie@4 004016e6 f   MSVCRT:secchk.obj
+ 0001:000006f6       __except_handler4_common   004016f6 f   MSVCRT:MSVCR90.dll
+ 0001:000006fc       __invoke_watson            004016fc f   MSVCRT:MSVCR90.dll
+ 0001:00000702       __controlfp_s              00401702 f   MSVCRT:MSVCR90.dll
+ 0001:00000708       ___report_gsfailure        00401708 f   MSVCRT:gs_report.obj
+ 0001:0000080e       __crt_debugger_hook        0040180e f   MSVCRT:MSVCR90.dll
+ 0002:00000000       __imp__UnhandledExceptionFilter@4 00402000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentProcess@0 00402004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__TerminateProcess@8  00402008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetSystemTimeAsFileTime@4 0040200c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__GetCurrentProcessId@0 00402010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__GetCurrentThreadId@0 00402014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetTickCount@0      00402018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__QueryPerformanceCounter@4 0040201c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__SetUnhandledExceptionFilter@4 00402020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__InterlockedCompareExchange@12 00402024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__Sleep@4             00402028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__InterlockedExchange@8 0040202c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__IsDebuggerPresent@0 00402030     kernel32:KERNEL32.dll
+ 0002:00000034       \177KERNEL32_NULL_THUNK_DATA 00402034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp____p__fmode          00402038     MSVCRT:MSVCR90.dll
+ 0002:0000003c       __imp___encode_pointer     0040203c     MSVCRT:MSVCR90.dll
+ 0002:00000040       __imp____set_app_type      00402040     MSVCRT:MSVCR90.dll
+ 0002:00000044       __imp_?terminate@@YAXXZ    00402044     MSVCRT:MSVCR90.dll
+ 0002:00000048       __imp___unlock             00402048     MSVCRT:MSVCR90.dll
+ 0002:0000004c       __imp____p__commode        0040204c     MSVCRT:MSVCR90.dll
+ 0002:00000050       __imp___lock               00402050     MSVCRT:MSVCR90.dll
+ 0002:00000054       __imp___onexit             00402054     MSVCRT:MSVCR90.dll
+ 0002:00000058       __imp___decode_pointer     00402058     MSVCRT:MSVCR90.dll
+ 0002:0000005c       __imp___except_handler4_common 0040205c     MSVCRT:MSVCR90.dll
+ 0002:00000060       __imp___invoke_watson      00402060     MSVCRT:MSVCR90.dll
+ 0002:00000064       __imp___controlfp_s        00402064     MSVCRT:MSVCR90.dll
+ 0002:00000068       __imp___crt_debugger_hook  00402068     MSVCRT:MSVCR90.dll
+ 0002:0000006c       __imp___adjust_fdiv        0040206c     MSVCRT:MSVCR90.dll
+ 0002:00000070       __imp____setusermatherr    00402070     MSVCRT:MSVCR90.dll
+ 0002:00000074       __imp___configthreadlocale 00402074     MSVCRT:MSVCR90.dll
+ 0002:00000078       __imp___initterm_e         00402078     MSVCRT:MSVCR90.dll
+ 0002:0000007c       __imp___initterm           0040207c     MSVCRT:MSVCR90.dll
+ 0002:00000080       __imp____initenv           00402080     MSVCRT:MSVCR90.dll
+ 0002:00000084       __imp__exit                00402084     MSVCRT:MSVCR90.dll
+ 0002:00000088       __imp___XcptFilter         00402088     MSVCRT:MSVCR90.dll
+ 0002:0000008c       __imp___exit               0040208c     MSVCRT:MSVCR90.dll
+ 0002:00000090       __imp___cexit              00402090     MSVCRT:MSVCR90.dll
+ 0002:00000094       __imp____getmainargs       00402094     MSVCRT:MSVCR90.dll
+ 0002:00000098       __imp___amsg_exit          00402098     MSVCRT:MSVCR90.dll
+ 0002:0000009c       __imp____dllonexit         0040209c     MSVCRT:MSVCR90.dll
+ 0002:000000a0       __imp__puts                004020a0     MSVCRT:MSVCR90.dll
+ 0002:000000a4       \177MSVCR90_NULL_THUNK_DATA 004020a4     MSVCRT:MSVCR90.dll
+ 0002:000000a8       ___xc_a                    004020a8     MSVCRT:cinitexe.obj
+ 0002:000000b0       ___xc_z                    004020b0     MSVCRT:cinitexe.obj
+ 0002:000000b4       ___xi_a                    004020b4     MSVCRT:cinitexe.obj
+ 0002:000000c0       ___xi_z                    004020c0     MSVCRT:cinitexe.obj
+ 0002:000000d0       __load_config_used         004020d0     MSVCRT:loadcfg.obj
+ 0002:00000120       ___safe_se_handler_table   00402120     <linker-defined>
+ 0002:00000124       ___rtc_iaa                 00402124     MSVCRT:_initsect_.obj
+ 0002:00000128       ___rtc_izz                 00402128     MSVCRT:_initsect_.obj
+ 0002:0000012c       ___rtc_taa                 0040212c     MSVCRT:_initsect_.obj
+ 0002:00000130       ___rtc_tzz                 00402130     MSVCRT:_initsect_.obj
+ 0002:00000194       __IMPORT_DESCRIPTOR_MSVCR90 00402194     MSVCRT:MSVCR90.dll
+ 0002:000001a8       __IMPORT_DESCRIPTOR_KERNEL32 004021a8     kernel32:KERNEL32.dll
+ 0002:000001bc       __NULL_IMPORT_DESCRIPTOR   004021bc     MSVCRT:MSVCR90.dll
+ 0003:00000080       ___native_dllmain_reason   00403080     MSVCRT:natstart.obj
+ 0003:00000084       ___native_vcclrit_reason   00403084     MSVCRT:natstart.obj
+ 0003:00000088       ___globallocalestatus      00403088     MSVCRT:xthdloc.obj
+ 0003:0000008c       ___defaultmatherr          0040308c     MSVCRT:merr.obj
+ 0003:00000090       ___security_cookie         00403090     MSVCRT:gs_cookie.obj
+ 0003:00000094       ___security_cookie_complement 00403094     MSVCRT:gs_cookie.obj
+ 0003:000000b8       __dowildcard               004030b8     MSVCRT:wildcard.obj
+ 0003:000000bc       __newmode                  004030bc     MSVCRT:_newmode.obj
+ 0003:000000c0       __commode                  004030c0     MSVCRT:xncommod.obj
+ 0003:000000c4       __fmode                    004030c4     MSVCRT:xtxtmode.obj
+ 0003:000003ec       __adjust_fdiv              004033ec     <common>
+ 0003:000003f0       ___native_startup_state    004033f0     <common>
+ 0003:000003f4       ___native_startup_lock     004033f4     <common>
+ 0003:000003f8       ___onexitend               004033f8     <common>
+ 0003:000003fc       ___onexitbegin             004033fc     <common>
+ 0003:00000400       ___dyn_tls_init_callback   00403400     <common>
+
+ entry point at        0001:000002b4
+
+ Static symbols
+
+ 0001:00000012       _pre_cpp_init              00401012 f   MSVCRT:crtexe.obj
+ 0001:0000005d       ___tmainCRTStartup         0040105d f   MSVCRT:crtexe.obj
+ 0001:000001d3       _pre_c_init                004011d3 f   MSVCRT:crtexe.obj

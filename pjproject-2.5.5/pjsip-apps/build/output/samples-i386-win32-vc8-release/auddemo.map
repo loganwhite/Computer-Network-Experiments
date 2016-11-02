@@ -1,0 +1,691 @@
+ auddemo
+
+ Timestamp is 57d7f161 (Tue Sep 13 20:30:25 2016)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000840eH .text                   CODE
+ 0002:00000000 000001e4H .idata$5                DATA
+ 0002:000001e4 00000004H .CRT$XCA                DATA
+ 0002:000001e8 00000004H .CRT$XCAA               DATA
+ 0002:000001ec 00000004H .CRT$XCZ                DATA
+ 0002:000001f0 00000004H .CRT$XIA                DATA
+ 0002:000001f4 00000004H .CRT$XIAA               DATA
+ 0002:000001f8 00000004H .CRT$XIC                DATA
+ 0002:000001fc 00000004H .CRT$XIY                DATA
+ 0002:00000200 00000004H .CRT$XIZ                DATA
+ 0002:00000208 00009f98H .rdata                  DATA
+ 0002:0000a1a0 00000004H .rdata$sxdata           DATA
+ 0002:0000a1a4 00000004H .rtc$IAA                DATA
+ 0002:0000a1a8 00000004H .rtc$IZZ                DATA
+ 0002:0000a1ac 00000004H .rtc$TAA                DATA
+ 0002:0000a1b0 00000004H .rtc$TZZ                DATA
+ 0002:0000a1b8 0000007cH .xdata$x                DATA
+ 0002:0000a234 00000064H .idata$2                DATA
+ 0002:0000a298 00000014H .idata$3                DATA
+ 0002:0000a2ac 000001e4H .idata$4                DATA
+ 0002:0000a490 0000079eH .idata$6                DATA
+ 0002:0000ac2e 00000000H .edata                  DATA
+ 0003:00000000 00000e40H .data                   DATA
+ 0003:00000e40 00000c84H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000df0       _main                      00401df0 f   auddemo.obj
+ 0001:00001590       _pjmedia_aud_test          00402590 f   pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0001:000018d0       _pjmedia_aud_subsys_init   004028d0 f   pjmedia-audiodev-i386-win32-vc8-release:audiodev.obj
+ 0001:00001970       _pjmedia_aud_subsys_get_pool_factory 00402970 f   pjmedia-audiodev-i386-win32-vc8-release:audiodev.obj
+ 0001:00001a40       _pjmedia_wmme_factory      00402a40 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00002fa0       _pjmedia_audiodev_strerror 00403fa0 f   pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0001:00003110       _pjmedia_get_aud_subsys    00404110 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:00003120       _pjmedia_aud_driver_init   00404120 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:00003350       _pjmedia_aud_driver_deinit 00404350 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:000033a0       _pjmedia_aud_dev_cap_name  004043a0 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:000033f0       _pjmedia_aud_dev_refresh   004043f0 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:00003460       _pjmedia_aud_dev_count     00404460 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:000035a0       _pjmedia_aud_dev_get_info  004045a0 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:00003600       _pjmedia_aud_dev_default_param 00404600 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:00003680       _pjmedia_aud_stream_create 00404680 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:00003820       _pjmedia_aud_stream_start  00404820 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:00003830       _pjmedia_aud_stream_stop   00404830 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:00003840       _pjmedia_aud_stream_destroy 00404840 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:00003850       _pjmedia_port_info_init    00404850 f   pjmedia-i386-win32-vc8-release:port.obj
+ 0001:000038e0       _pjmedia_port_get_frame    004048e0 f   pjmedia-i386-win32-vc8-release:port.obj
+ 0001:00003920       _pjmedia_port_put_frame    00404920 f   pjmedia-i386-win32-vc8-release:port.obj
+ 0001:00003950       _pjmedia_port_destroy      00404950 f   pjmedia-i386-win32-vc8-release:port.obj
+ 0001:00003c10       _pjmedia_wav_writer_port_create 00404c10 f   pjmedia-i386-win32-vc8-release:wav_writer.obj
+ 0001:00004340       _pjmedia_wav_player_port_create 00405340 f   pjmedia-i386-win32-vc8-release:wav_player.obj
+ 0001:00004840       _pjmedia_format_get_audio_format_detail 00405840 f   pjmedia-i386-win32-vc8-release:format.obj
+ 0001:00004860       _pjmedia_wave_hdr_host_to_file 00405860 f   pjmedia-i386-win32-vc8-release:wave.obj
+ 0001:00004860       _pjmedia_wave_hdr_file_to_host 00405860 f   pjmedia-i386-win32-vc8-release:wave.obj
+ 0001:000048e0       _pj_register_strerror      004058e0 f   pjlib-i386-win32-vc8-release:errno.obj
+ 0001:000049c0       _pj_errno_clear_handlers   004059c0 f   pjlib-i386-win32-vc8-release:errno.obj
+ 0001:000049e0       _pj_strerror               004059e0 f   pjlib-i386-win32-vc8-release:errno.obj
+ 0001:00004b70       _pj_perror_4               00405b70 f   pjlib-i386-win32-vc8-release:errno.obj
+ 0001:00004bd0       _pj_log_init               00405bd0 f   pjlib-i386-win32-vc8-release:log.obj
+ 0001:00004c40       _pj_log_set_decor          00405c40 f   pjlib-i386-win32-vc8-release:log.obj
+ 0001:00004c50       _pj_log_get_decor          00405c50 f   pjlib-i386-win32-vc8-release:log.obj
+ 0001:00004c60       _pj_log_get_color          00405c60 f   pjlib-i386-win32-vc8-release:log.obj
+ 0001:00004cc0       _pj_log_set_level          00405cc0 f   pjlib-i386-win32-vc8-release:log.obj
+ 0001:00004cd0       _pj_log_get_level          00405cd0 f   pjlib-i386-win32-vc8-release:log.obj
+ 0001:00004ce0       _pj_log                    00405ce0 f   pjlib-i386-win32-vc8-release:log.obj
+ 0001:00005140       _pj_log_1                  00406140 f   pjlib-i386-win32-vc8-release:log.obj
+ 0001:00005160       _pj_log_3                  00406160 f   pjlib-i386-win32-vc8-release:log.obj
+ 0001:00005180       _pj_log_4                  00406180 f   pjlib-i386-win32-vc8-release:log.obj
+ 0001:000051a0       _pj_log_5                  004061a0 f   pjlib-i386-win32-vc8-release:log.obj
+ 0001:000051c0       _pj_pool_get_capacity      004061c0 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:000051d0       _pj_pool_get_used_size     004061d0 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:00005200       _pj_pool_alloc_from_block  00406200 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:00005230       _pj_pool_getobjname        00406230 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:00005240       _pj_pool_create            00406240 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:00005250       _pj_pool_release           00406250 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:000052e0       _pj_pool_allocate_find     004062e0 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:00005390       _pj_pool_init_int          00406390 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:00005400       _pj_pool_create_int        00406400 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:00005510       _pj_pool_reset             00406510 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:00005520       _pj_pool_destroy_int       00406520 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:00005560       _pj_pool_alloc             00406560 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:000055a0       _pj_pool_calloc            004065a0 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:00005600       _pj_atexit                 00406600 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005630       _pj_thread_local_alloc     00406630 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005680       _pj_thread_local_set       00406680 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:000056c0       _pj_thread_local_get       004066c0 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:000056d0       _pj_thread_register        004066d0 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:000057a0       _pj_thread_init            004067a0 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005880       _pj_thread_this            00406880 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005890       _pj_thread_check_stack     00406890 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:000058d0       _pj_thread_local_free      004068d0 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:000059c0       _pj_mutex_create           004069c0 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005a10       _pj_mutex_create_simple    00406a10 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005a60       _pj_mutex_lock             00406a60 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005ac0       _pj_mutex_unlock           00406ac0 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005b20       _pj_mutex_trylock          00406b20 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005b90       _pj_mutex_destroy          00406b90 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005bf0       _pj_enter_critical_section 00406bf0 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005c00       _pj_leave_critical_section 00406c00 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005cb0       _pj_sem_wait               00406cb0 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005d10       _pj_sem_trywait            00406d10 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005d70       _pj_sem_post               00406d70 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005e00       _pj_sem_destroy            00406e00 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005e80       _pj_term_set_color         00406e80 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005f20       _pj_init                   00406f20 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00006080       _pj_shutdown               00407080 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:000061c0       _pj_thread_create          004071c0 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00006320       _pj_thread_get_name        00407320 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00006370       _pj_thread_join            00407370 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00006420       _pj_thread_destroy         00407420 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:000064a0       _pj_thread_sleep           004074a0 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:000064f0       _pj_caching_pool_destroy   004074f0 f   pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0001:00006940       _pj_caching_pool_init      00407940 f   pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0001:00006ac0       _pj_elapsed_usec           00407ac0 f   pjlib-i386-win32-vc8-release:os_timestamp_common.obj
+ 0001:00006b40       _pj_get_timestamp          00407b40 f   pjlib-i386-win32-vc8-release:os_timestamp_win32.obj
+ 0001:00006ba0       _pj_get_timestamp_freq     00407ba0 f   pjlib-i386-win32-vc8-release:os_timestamp_win32.obj
+ 0001:00006c00       _pj_get_os_error           00407c00 f   pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0001:00006c20       _platform_strerror         00407c20 f   pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0001:00006d10       _pj_str                    00407d10 f   pjlib-i386-win32-vc8-release:string.obj
+ 0001:00006d30       _pj_strdup2                00407d30 f   pjlib-i386-win32-vc8-release:string.obj
+ 0001:00006d90       _pj_strncpy_with_null      00407d90 f   pjlib-i386-win32-vc8-release:string.obj
+ 0001:00006dd0       _pj_utoa_pad               00407dd0 f   pjlib-i386-win32-vc8-release:string.obj
+ 0001:00006e50       _pj_utoa                   00407e50 f   pjlib-i386-win32-vc8-release:string.obj
+ 0001:00006e70       _pj_file_close             00407e70 f   pjlib-i386-win32-vc8-release:file_io_win32.obj
+ 0001:00006eb0       _pj_file_write             00407eb0 f   pjlib-i386-win32-vc8-release:file_io_win32.obj
+ 0001:00006f10       _pj_file_read              00407f10 f   pjlib-i386-win32-vc8-release:file_io_win32.obj
+ 0001:00006f70       _pj_file_setpos            00407f70 f   pjlib-i386-win32-vc8-release:file_io_win32.obj
+ 0001:00006fe0       _pj_file_getpos            00407fe0 f   pjlib-i386-win32-vc8-release:file_io_win32.obj
+ 0001:00007040       _pj_file_open              00408040 f   pjlib-i386-win32-vc8-release:file_io_win32.obj
+ 0001:00007160       _pj_file_exists            00408160 f   pjlib-i386-win32-vc8-release:file_access_win32.obj
+ 0001:000071a0       _pj_file_size              004081a0 f   pjlib-i386-win32-vc8-release:file_access_win32.obj
+ 0001:00007230       _pj_log_write              00408230 f   pjlib-i386-win32-vc8-release:log_writer_stdout.obj
+ 0001:00007300       _pj_gettimeofday           00408300 f   pjlib-i386-win32-vc8-release:os_time_win32.obj
+ 0001:00007370       _pj_time_decode            00408370 f   pjlib-i386-win32-vc8-release:os_time_win32.obj
+ 0001:00007400       _pj_list_insert_after      00408400 f   pjlib-i386-win32-vc8-release:list.obj
+ 0001:00007420       _pj_list_insert_before     00408420 f   pjlib-i386-win32-vc8-release:list.obj
+ 0001:00007440       _pj_list_erase             00408440 f   pjlib-i386-win32-vc8-release:list.obj
+ 0001:00007460       _pj_exception_id_alloc     00408460 f   pjlib-i386-win32-vc8-release:except.obj
+ 0001:000074b0       _pj_exception_id_free      004084b0 f   pjlib-i386-win32-vc8-release:except.obj
+ 0001:000074e0       _pj_throw_exception_       004084e0 f   pjlib-i386-win32-vc8-release:except.obj
+ 0001:00007670       _pj_generate_unique_string 00408670 f   pjlib-i386-win32-vc8-release:guid_win32.obj
+ 0001:00007740       _pj_lock_create_simple_mutex 00408740 f   pjlib-i386-win32-vc8-release:lock.obj
+ 0001:00007770       _pj_lock_create_null_mutex 00408770 f   pjlib-i386-win32-vc8-release:lock.obj
+ 0001:00007790       _pj_lock_acquire           00408790 f   pjlib-i386-win32-vc8-release:lock.obj
+ 0001:000077b0       _pj_lock_release           004087b0 f   pjlib-i386-win32-vc8-release:lock.obj
+ 0001:000077d0       _pj_lock_destroy           004087d0 f   pjlib-i386-win32-vc8-release:lock.obj
+ 0001:00007870       _pj_pool_create_on_buf     00408870 f   pjlib-i386-win32-vc8-release:pool_buf.obj
+ 0001:00007910       _pj_ntohs                  00408910 f   pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0001:00007920       _pj_ntohl                  00408920 f   pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0001:00007930       __aulldiv                  00408930 f   MSVCRT:ulldiv.obj
+ 0001:000079a0       __allmul                   004089a0 f   MSVCRT:llmul.obj
+ 0001:000079d4       @__security_check_cookie@4 004089d4 f   MSVCRT:secchk.obj
+ 0001:00007c85       _mainCRTStartup            00408c85 f   MSVCRT:crtexe.obj
+ 0001:00007c90       _memset                    00408c90 f   MSVCRT:MSVCR90.dll
+ 0001:00007ca0       __ftol2_sse                00408ca0 f   MSVCRT:ftol2.obj
+ 0001:00007ca9       __ftol2_pentium4           00408ca9 f   MSVCRT:ftol2.obj
+ 0001:00007cbc       __ftol2_sse_excpt          00408cbc f   MSVCRT:ftol2.obj
+ 0001:00007cd6       __ftol2                    00408cd6 f   MSVCRT:ftol2.obj
+ 0001:00007d4c       _memcpy                    00408d4c f   MSVCRT:MSVCR90.dll
+ 0001:00007d60       __alldiv                   00408d60 f   MSVCRT:lldiv.obj
+ 0001:00007e0a       ___report_gsfailure        00408e0a f   MSVCRT:gs_report.obj
+ 0001:00007f10       ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z 00408f10 f   MSVCRT:unhandld.obj
+ 0001:00007f52       ___CxxSetUnhandledExceptionFilter 00408f52 f   MSVCRT:unhandld.obj
+ 0001:00007f60       __amsg_exit                00408f60 f   MSVCRT:MSVCR90.dll
+ 0001:00007f66       __onexit                   00408f66 f   MSVCRT:atonexit.obj
+ 0001:0000800b       _atexit                    0040900b f   MSVCRT:atonexit.obj
+ 0001:00008022       __RTC_Initialize           00409022 f   MSVCRT:_initsect_.obj
+ 0001:00008048       __RTC_Terminate            00409048 f   MSVCRT:_initsect_.obj
+ 0001:0000806e       __XcptFilter               0040906e f   MSVCRT:MSVCR90.dll
+ 0001:00008080       __ValidateImageBase        00409080 f   MSVCRT:pesect.obj
+ 0001:000080c0       __FindPESection            004090c0 f   MSVCRT:pesect.obj
+ 0001:00008110       __IsNonwritableInCurrentImage 00409110 f   MSVCRT:pesect.obj
+ 0001:000081ce       __initterm                 004091ce f   MSVCRT:MSVCR90.dll
+ 0001:000081d4       __initterm_e               004091d4 f   MSVCRT:MSVCR90.dll
+ 0001:000081dc       __SEH_prolog4              004091dc f   MSVCRT:sehprolg4.obj
+ 0001:00008221       __SEH_epilog4              00409221 f   MSVCRT:sehprolg4.obj
+ 0001:00008235       __except_handler4          00409235 f   MSVCRT:chandler4gs.obj
+ 0001:0000825a       __setdefaultprecision      0040925a f   MSVCRT:fp8.obj
+ 0001:00008285       __matherr                  00409285 f   MSVCRT:merr.obj
+ 0001:00008285       __setargv                  00409285 f   MSVCRT:dllargv.obj
+ 0001:00008288       ___security_init_cookie    00409288 f   MSVCRT:gs_support.obj
+ 0001:0000836e       __get_sse2_info            0040936e f   MSVCRT:cpu_disp.obj
+ 0001:000083d0       ___sse2_available_init     004093d0 f   MSVCRT:cpu_disp.obj
+ 0001:000083de       __crt_debugger_hook        004093de f   MSVCRT:MSVCR90.dll
+ 0001:000083e4       ?terminate@@YAXXZ          004093e4 f   MSVCRT:MSVCR90.dll
+ 0001:000083ea       __unlock                   004093ea f   MSVCRT:MSVCR90.dll
+ 0001:000083f0       ___dllonexit               004093f0 f   MSVCRT:MSVCR90.dll
+ 0001:000083f6       __lock                     004093f6 f   MSVCRT:MSVCR90.dll
+ 0001:000083fc       __except_handler4_common   004093fc f   MSVCRT:MSVCR90.dll
+ 0001:00008402       __invoke_watson            00409402 f   MSVCRT:MSVCR90.dll
+ 0001:00008408       __controlfp_s              00409408 f   MSVCRT:MSVCR90.dll
+ 0002:00000000       __imp__GetSystemTimeAsFileTime@4 0040a000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetTickCount@0      0040a004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__IsDebuggerPresent@0 0040a008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__SetUnhandledExceptionFilter@4 0040a00c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__UnhandledExceptionFilter@4 0040a010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__GetCurrentProcess@0 0040a014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__TerminateProcess@8  0040a018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__InterlockedCompareExchange@12 0040a01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetLocalTime@4      0040a020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__SystemTimeToFileTime@8 0040a024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__FileTimeToSystemTime@8 0040a028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetFileSize@8       0040a02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__CreateFileA@28      0040a030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__SetFilePointer@16   0040a034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__ReadFile@20         0040a038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__WriteFile@20        0040a03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__FormatMessageA@28   0040a040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__QueryPerformanceFrequency@4 0040a044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__QueryPerformanceCounter@4 0040a048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__Sleep@4             0040a04c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__CreateThread@24     0040a050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GetCurrentProcessId@0 0040a054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__GetStdHandle@4      0040a058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__SetConsoleTextAttribute@8 0040a05c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__WaitForMultipleObjects@16 0040a060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__SetThreadPriority@8 0040a064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetCurrentThread@0  0040a068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__CloseHandle@4       0040a06c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__SetEvent@4          0040a070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__GetLastError@0      0040a074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__TlsAlloc@0          0040a078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__TlsSetValue@8       0040a07c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__TlsGetValue@4       0040a080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__GetCurrentThreadId@0 0040a084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__InterlockedExchange@8 0040a088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__TlsFree@4           0040a08c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__InitializeCriticalSection@4 0040a090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__EnterCriticalSection@4 0040a094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__LeaveCriticalSection@4 0040a098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__TryEnterCriticalSection@4 0040a09c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__DeleteCriticalSection@4 0040a0a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__CreateEventA@16     0040a0a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__WaitForSingleObject@8 0040a0a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__ReleaseSemaphore@12 0040a0ac     kernel32:KERNEL32.dll
+ 0002:000000b0       \177KERNEL32_NULL_THUNK_DATA 0040a0b0     kernel32:KERNEL32.dll
+ 0002:000000b4       __imp___amsg_exit          0040a0b4     MSVCRT:MSVCR90.dll
+ 0002:000000b8       __imp____getmainargs       0040a0b8     MSVCRT:MSVCR90.dll
+ 0002:000000bc       __imp___cexit              0040a0bc     MSVCRT:MSVCR90.dll
+ 0002:000000c0       __imp___exit               0040a0c0     MSVCRT:MSVCR90.dll
+ 0002:000000c4       __imp___XcptFilter         0040a0c4     MSVCRT:MSVCR90.dll
+ 0002:000000c8       __imp__exit                0040a0c8     MSVCRT:MSVCR90.dll
+ 0002:000000cc       __imp____initenv           0040a0cc     MSVCRT:MSVCR90.dll
+ 0002:000000d0       __imp___initterm           0040a0d0     MSVCRT:MSVCR90.dll
+ 0002:000000d4       __imp___initterm_e         0040a0d4     MSVCRT:MSVCR90.dll
+ 0002:000000d8       __imp___configthreadlocale 0040a0d8     MSVCRT:MSVCR90.dll
+ 0002:000000dc       __imp____setusermatherr    0040a0dc     MSVCRT:MSVCR90.dll
+ 0002:000000e0       __imp___adjust_fdiv        0040a0e0     MSVCRT:MSVCR90.dll
+ 0002:000000e4       __imp____p__commode        0040a0e4     MSVCRT:MSVCR90.dll
+ 0002:000000e8       __imp____p__fmode          0040a0e8     MSVCRT:MSVCR90.dll
+ 0002:000000ec       __imp___encode_pointer     0040a0ec     MSVCRT:MSVCR90.dll
+ 0002:000000f0       __imp____set_app_type      0040a0f0     MSVCRT:MSVCR90.dll
+ 0002:000000f4       __imp___crt_debugger_hook  0040a0f4     MSVCRT:MSVCR90.dll
+ 0002:000000f8       __imp_?terminate@@YAXXZ    0040a0f8     MSVCRT:MSVCR90.dll
+ 0002:000000fc       __imp___unlock             0040a0fc     MSVCRT:MSVCR90.dll
+ 0002:00000100       __imp____dllonexit         0040a100     MSVCRT:MSVCR90.dll
+ 0002:00000104       __imp___lock               0040a104     MSVCRT:MSVCR90.dll
+ 0002:00000108       __imp___onexit             0040a108     MSVCRT:MSVCR90.dll
+ 0002:0000010c       __imp___decode_pointer     0040a10c     MSVCRT:MSVCR90.dll
+ 0002:00000110       __imp___except_handler4_common 0040a110     MSVCRT:MSVCR90.dll
+ 0002:00000114       __imp___invoke_watson      0040a114     MSVCRT:MSVCR90.dll
+ 0002:00000118       __imp___controlfp_s        0040a118     MSVCRT:MSVCR90.dll
+ 0002:0000011c       __imp__longjmp             0040a11c     MSVCRT:MSVCR90.dll
+ 0002:00000120       __imp__free                0040a120     MSVCRT:MSVCR90.dll
+ 0002:00000124       __imp__malloc              0040a124     MSVCRT:MSVCR90.dll
+ 0002:00000128       __imp__strchr              0040a128     MSVCRT:MSVCR90.dll
+ 0002:0000012c       __imp___vsnprintf          0040a12c     MSVCRT:MSVCR90.dll
+ 0002:00000130       __imp___snprintf           0040a130     MSVCRT:MSVCR90.dll
+ 0002:00000134       __imp__strncpy             0040a134     MSVCRT:MSVCR90.dll
+ 0002:00000138       __imp__memcpy              0040a138     MSVCRT:MSVCR90.dll
+ 0002:0000013c       __imp__memset              0040a13c     MSVCRT:MSVCR90.dll
+ 0002:00000140       __imp__sscanf              0040a140     MSVCRT:MSVCR90.dll
+ 0002:00000144       __imp__puts                0040a144     MSVCRT:MSVCR90.dll
+ 0002:00000148       __imp__fflush              0040a148     MSVCRT:MSVCR90.dll
+ 0002:0000014c       __imp____iob_func          0040a14c     MSVCRT:MSVCR90.dll
+ 0002:00000150       __imp__fgets               0040a150     MSVCRT:MSVCR90.dll
+ 0002:00000154       __imp__sprintf             0040a154     MSVCRT:MSVCR90.dll
+ 0002:00000158       __imp__printf              0040a158     MSVCRT:MSVCR90.dll
+ 0002:0000015c       \177MSVCR90_NULL_THUNK_DATA 0040a15c     MSVCRT:MSVCR90.dll
+ 0002:00000160       __imp__waveInGetErrorTextA@12 0040a160     winmm:WINMM.dll
+ 0002:00000164       __imp__waveOutGetErrorTextA@12 0040a164     winmm:WINMM.dll
+ 0002:00000168       __imp__waveOutReset@4      0040a168     winmm:WINMM.dll
+ 0002:0000016c       __imp__waveOutUnprepareHeader@12 0040a16c     winmm:WINMM.dll
+ 0002:00000170       __imp__waveOutClose@4      0040a170     winmm:WINMM.dll
+ 0002:00000174       __imp__waveInReset@4       0040a174     winmm:WINMM.dll
+ 0002:00000178       __imp__waveInUnprepareHeader@12 0040a178     winmm:WINMM.dll
+ 0002:0000017c       __imp__waveInClose@4       0040a17c     winmm:WINMM.dll
+ 0002:00000180       __imp__waveInStop@4        0040a180     winmm:WINMM.dll
+ 0002:00000184       __imp__waveOutRestart@4    0040a184     winmm:WINMM.dll
+ 0002:00000188       __imp__waveInStart@4       0040a188     winmm:WINMM.dll
+ 0002:0000018c       __imp__waveOutSetVolume@8  0040a18c     winmm:WINMM.dll
+ 0002:00000190       __imp__waveOutGetVolume@8  0040a190     winmm:WINMM.dll
+ 0002:00000194       __imp__waveInOpen@24       0040a194     winmm:WINMM.dll
+ 0002:00000198       __imp__waveInPrepareHeader@12 0040a198     winmm:WINMM.dll
+ 0002:0000019c       __imp__waveInAddBuffer@12  0040a19c     winmm:WINMM.dll
+ 0002:000001a0       __imp__waveOutOpen@24      0040a1a0     winmm:WINMM.dll
+ 0002:000001a4       __imp__waveOutPause@4      0040a1a4     winmm:WINMM.dll
+ 0002:000001a8       __imp__waveOutPrepareHeader@12 0040a1a8     winmm:WINMM.dll
+ 0002:000001ac       __imp__waveOutWrite@12     0040a1ac     winmm:WINMM.dll
+ 0002:000001b0       __imp__waveInGetNumDevs@0  0040a1b0     winmm:WINMM.dll
+ 0002:000001b4       __imp__waveOutGetNumDevs@0 0040a1b4     winmm:WINMM.dll
+ 0002:000001b8       __imp__waveInGetDevCapsA@12 0040a1b8     winmm:WINMM.dll
+ 0002:000001bc       __imp__waveOutGetDevCapsA@12 0040a1bc     winmm:WINMM.dll
+ 0002:000001c0       \177WINMM_NULL_THUNK_DATA  0040a1c0     winmm:WINMM.dll
+ 0002:000001c4       __imp__ntohl@4             0040a1c4     ws2_32:WS2_32.dll
+ 0002:000001c8       __imp__ntohs@4             0040a1c8     ws2_32:WS2_32.dll
+ 0002:000001cc       __imp__WSACleanup@0        0040a1cc     ws2_32:WS2_32.dll
+ 0002:000001d0       __imp__WSAStartup@8        0040a1d0     ws2_32:WS2_32.dll
+ 0002:000001d4       __imp__WSAGetLastError@0   0040a1d4     ws2_32:WS2_32.dll
+ 0002:000001d8       \177WS2_32_NULL_THUNK_DATA 0040a1d8     ws2_32:WS2_32.dll
+ 0002:000001dc       __imp__CoCreateGuid@4      0040a1dc     ole32:ole32.dll
+ 0002:000001e0       \177ole32_NULL_THUNK_DATA  0040a1e0     ole32:ole32.dll
+ 0002:000001e4       ___xc_a                    0040a1e4     MSVCRT:cinitexe.obj
+ 0002:000001ec       ___xc_z                    0040a1ec     MSVCRT:cinitexe.obj
+ 0002:000001f0       ___xi_a                    0040a1f0     MSVCRT:cinitexe.obj
+ 0002:00000200       ___xi_z                    0040a200     MSVCRT:cinitexe.obj
+ 0002:00000208       __real@3fe0000000000000    0040a208     pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0002:00000210       ??_C@_0BB@BAGIMGGD@?$CFs?3?5?$CFs?5?$CIerr?$DN?$CFd?$CJ?6?$AA@ 0040a210     pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0002:00000224       ??_C@_0M@PPJNFCCP@audiotest?4c?$AA@ 0040a224     pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0002:00000230       ??_C@_0DE@FBEKMONH@?5Please?5wait?5while?5test?5is?5in?5pr@ 0040a230     pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0002:00000264       ??_C@_0BP@JJJOPCGH@Unable?5to?5start?5capture?5stream?$AA@ 0040a264     pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0002:00000284       ??_C@_0BG@KPJALKKK@Unable?5to?5open?5device?$AA@ 0040a284     pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0002:0000029c       ??_C@_07ONKAOHNE@sndtest?$AA@ 0040a29c     pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0002:000002a4       ??_C@_07LGOHBJLG@audtest?$AA@ 0040a2a4     pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0002:000002ac       ??_C@_09OFDCJLJM@WMME?5base?$AA@ 0040a2ac     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:000002b8       ??_C@_04CPNMDOAK@WMME?$AA@ 0040a2b8     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:000002c0       ??_C@_0M@KBHHDDLP@Wave?5mapper?$AA@ 0040a2c0     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:000002cc       ??_C@_0CA@NLJGEGOG@?5dev_id?5?$CFd?3?5?$CFs?5?5?$CIin?$DN?$CFd?0?5out?$DN?$CFd?$CJ?$AA@ 0040a2cc     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:000002ec       ??_C@_0BH@GEMAAOCL@WMME?5found?5?$CFd?5devices?3?$AA@ 0040a2ec     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:00000304       ??_C@_11LOCGONAA@?$AA?$AA@ 0040a304     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:00000308       ??_C@_0L@HHCCMOGO@wmme_dev?4c?$AA@ 0040a308     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:00000314       ??_C@_0BM@OMJMEAMB@WMME?5found?5no?5sound?5devices?$AA@ 0040a314     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:00000330       ??_C@_03CCLNCNJA@PCM?$AA@  0040a330     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:00000338       ??_C@_0HB@MKIBCFPJ@?5WaveAPI?5Sound?5player?5?$CC?$CFs?$CC?5initi@ 0040a338     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:000003b0       ??_C@_0HD@PIICIPL@?5WaveAPI?5Sound?5recorder?5?$CC?$CFs?$CC?5ini@ 0040a3b0     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:00000424       ??_C@_0BI@BEJPJEBJ@WMME?3?5thread?5stopping?4?4?$AA@ 0040a424     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:0000043c       ??_C@_0BM@NKDLICNM@WMME?5capture?5stream?5started?$AA@ 0040a43c     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:00000458       ??_C@_0BN@MNACKNIN@WMME?5playback?5stream?5started?$AA@ 0040a458     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:00000478       ??_C@_0BM@KCHDOGNE@Stopped?5WMME?5capture?5stream?$AA@ 0040a478     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:00000494       ??_C@_0BN@FMJNHCPG@Stopped?5WMME?5playback?5stream?$AA@ 0040a494     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:000004b4       ??_C@_0BB@EOKKHGLD@WMME?5initialized?$AA@ 0040a4b4     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:000004c8       ??_C@_04ODOGNMHC@wmme?$AA@ 0040a4c8     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:000004d0       ??_C@_08MOOOBPLB@wmme?9dev?$AA@ 0040a4d0     pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0002:000004dc       ??_C@_0DE@LJJGJIEF@Bad?5audio?5latency?5setting?5?$CIPJMED@ 0040a4dc     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:00000510       ??_C@_0DN@BLAJILEA@Invalid?5audio?5device?5sample?5form@ 0040a510     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:00000550       ??_C@_0DM@JKDJGBNG@Bad?5or?5invalid?5audio?5device?5form@ 0040a550     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:00000590       ??_C@_0ED@PLJALPOA@Invalid?5or?5unsupported?5audio?5dev@ 0040a590     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:000005d4       ??_C@_0DO@NMIGLFFA@Invalid?5or?5unsupported?5audio?5cap@ 0040a5d4     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:00000614       ??_C@_0CP@JIPJOIMB@Audio?5device?5not?5ready?5?$CIPJMEDIA_@ 0040a614     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:00000644       ??_C@_0DM@DPDKGMIE@Unable?5to?5find?5default?5audio?5dev@ 0040a644     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:00000680       ??_C@_0CM@LOPLLMHO@Found?5no?5audio?5devices?5?$CIPJMEDIA_@ 0040a680     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:000006ac       ??_C@_0CL@NCBJPCNF@Invalid?5audio?5device?5?$CIPJMEDIA_EA@ 0040a6ac     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:000006d8       ??_C@_0DE@DOHCBKFK@Audio?5subsystem?5not?5initialized?5@ 0040a6d8     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:0000070c       ??_C@_0DG@FEDKLOFB@Unknown?5error?5from?5audio?5driver?5@ 0040a70c     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:00000744       ??_C@_0DC@MHBBCDGM@Unspecified?5audio?5device?5error?5?$CI@ 0040a744     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:000007d8       ??_C@_0CC@MFOJNIAN@Unknown?5pjmedia?9audiodev?5error?5?$CF@ 0040a7d8     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:000007fc       ??_C@_0BJ@GMHLEOAL@MMSYSTEM?5native?5error?5?$CFd?$AA@ 0040a7fc     pjmedia-audiodev-i386-win32-vc8-release:errno.obj
+ 0002:00000818       ??_C@_0BI@OMEMKBHH@Packet?5loss?5concealment?$AA@ 0040a818     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000830       ??_C@_03NOPFEPFL@plg?$AA@  0040a830     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000834       ??_C@_0BJ@MNDOFJGN@Comfort?5noise?5generation?$AA@ 0040a834     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000850       ??_C@_03JPNNGDEE@cng?$AA@  0040a850     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000854       ??_C@_0BJ@PEELNNPF@Voice?5activity?5detection?$AA@ 0040a854     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000870       ??_C@_03NIGLNABH@vad?$AA@  0040a870     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000874       ??_C@_0BM@PBLLADJD@Tail?5length?5setting?5for?5AEC?$AA@ 0040a874     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000890       ??_C@_08MKAPJCJE@aec?9tail?$AA@ 0040a890     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:0000089c       ??_C@_0BM@HPDLGLFJ@Accoustic?5echo?5cancellation?$AA@ 0040a89c     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:000008b8       ??_C@_03FNONIBCK@aec?$AA@  0040a8b8     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:000008bc       ??_C@_0P@JOFPIEJJ@Output?5routing?$AA@ 0040a8bc     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:000008cc       ??_C@_09IKMAGDNF@route?9out?$AA@ 0040a8cc     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:000008d8       ??_C@_0O@JDPFDDM@Input?5routing?$AA@ 0040a8d8     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:000008e8       ??_C@_08FPHJDLBG@route?9in?$AA@ 0040a8e8     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:000008f4       ??_C@_0N@GBEOEOEP@Output?5meter?$AA@ 0040a8f4     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000904       ??_C@_09NKJLJGOJ@meter?9out?$AA@ 0040a904     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000910       ??_C@_0M@NCGIGNPG@Input?5meter?$AA@ 0040a910     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:0000091c       ??_C@_08BPNDLGG@meter?9in?$AA@ 0040a91c     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000928       ??_C@_0BG@IBEHJHAD@Output?5volume?5setting?$AA@ 0040a928     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000940       ??_C@_07LBFHFBAF@vol?9out?$AA@ 0040a940     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000948       ??_C@_0BF@CCEKOJAN@Input?5volume?5setting?$AA@ 0040a948     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000960       ??_C@_06KGGLCDDG@vol?9in?$AA@ 0040a960     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000968       ??_C@_0CD@GAINMBC@Output?5latency?1buffer?5size?5setti@ 0040a968     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:0000098c       ??_C@_0M@MBBBBCLJ@latency?9out?$AA@ 0040a98c     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000998       ??_C@_0CC@LIGOHOJN@Input?5latency?1buffer?5size?5settin@ 0040a998     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:000009bc       ??_C@_0L@IKNMBADD@latency?9in?$AA@ 0040a9bc     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:000009c8       ??_C@_0BI@GGHCECPI@Extended?1non?9PCM?5format?$AA@ 0040a9c8     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:000009e0       ??_C@_07GBKCPIDJ@ext?9fmt?$AA@ 0040a9e0     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:000009e8       ??_C@_0L@FGHHAHLM@audiodev?4c?$AA@ 0040a9e8     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:000009f8       ??_C@_0EF@NLCNMHAD@?$CFd?5device?$CIs?$CJ?5cannot?5be?5registere@ 0040a9f8     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000a40       ??_C@_02HHFHKOHM@?$DP?$DP?$AA@ 0040aa40     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000a44       ??_C@_0CF@NNKJIABC@Unable?5to?5refresh?5device?5list?5fo@ 0040aa44     pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0002:00000a6c       ??_C@_0N@MCLOBLAH@wav_writer?4c?$AA@ 0040aa6c     pjmedia-i386-win32-vc8-release:wav_writer.obj
+ 0002:00000a7c       ??_C@_0DH@EDIEAILI@File?5writer?5?8?$CF?4?$CKs?8?5created?3?5samp@ 0040aa7c     pjmedia-i386-win32-vc8-release:wav_writer.obj
+ 0002:00000ab4       ??_C@_0BL@OHCCHMIC@File?5port?5?$CF?4?$CKs?5rewinding?4?4?$AA@ 0040aab4     pjmedia-i386-win32-vc8-release:wav_player.obj
+ 0002:00000ad0       ??_C@_0N@EAJPAIGO@wav_player?4c?$AA@ 0040aad0     pjmedia-i386-win32-vc8-release:wav_player.obj
+ 0002:00000ae0       ??_C@_0BD@LPPPNKOC@File?5port?5?$CF?4?$CKs?5EOF?$AA@ 0040aae0     pjmedia-i386-win32-vc8-release:wav_player.obj
+ 0002:00000af4       ??_C@_04DAMGJPCA@file?$AA@ 0040aaf4     pjmedia-i386-win32-vc8-release:wav_player.obj
+ 0002:00000afc       ??_C@_0DH@CJCCJAOK@actual?5value?$HMexpected?5riff?$DN?$CFx?$HM?$CFx@ 0040aafc     pjmedia-i386-win32-vc8-release:wav_player.obj
+ 0002:00000b38       ??_C@_0EO@KJDBHFL@File?5player?5?8?$CF?4?$CKs?8?5created?3?5samp@ 0040ab38     pjmedia-i386-win32-vc8-release:wav_player.obj
+ 0002:00000b88       _pjmedia_linear2ulaw_tab   0040ab88     pjmedia-i386-win32-vc8-release:alaw_ulaw_table.obj
+ 0002:00004b88       _pjmedia_linear2alaw_tab   0040eb88     pjmedia-i386-win32-vc8-release:alaw_ulaw_table.obj
+ 0002:00008b88       _pjmedia_ulaw2linear_tab   00412b88     pjmedia-i386-win32-vc8-release:alaw_ulaw_table.obj
+ 0002:00008d88       _pjmedia_alaw2linear_tab   00412d88     pjmedia-i386-win32-vc8-release:alaw_ulaw_table.obj
+ 0002:00008f88       ??_C@_0CI@LBHALONI@Socket?5is?5in?5bad?5state?5?$CIPJ_ESOCK@ 00412f88     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:00008fb0       ??_C@_0CD@PDGCJOJH@Object?5no?5longer?5exists?5?$CIPJ_EGON@ 00412fb0     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:00008fd4       ??_C@_0CK@DJAHHNOI@Unsupported?5address?5family?5?$CIPJ_E@ 00412fd4     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:00009000       ??_C@_0CH@OGOOBJBE@IPv6?5is?5not?5supported?5?$CIPJ_EIPV6N@ 00413000     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:00009028       ??_C@_0BG@NBDJGAFI@Ignored?5?$CIPJ_EIGNORED?$CJ?$AA@ 00413028     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:00009040       ??_C@_0CB@MGGLJMNO@Size?5is?5too?5short?5?$CIPJ_ETOOSMALL?$CJ@ 00413040     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:00009064       ??_C@_0DB@FDCHLEID@gethostbyname?$CI?$CJ?5has?5returned?5err@ 00413064     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:00009098       ??_C@_0BN@PCCNBFLN@Size?5is?5too?5big?5?$CIPJ_ETOOBIG?$CJ?$AA@ 00413098     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000090b8       ??_C@_0BG@GMBDFNLN@End?5of?5file?5?$CIPJ_EEOF?$CJ?$AA@ 004130b8     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000090d0       ??_C@_0CD@LODOFNLC@Object?5already?5exists?5?$CIPJ_EEXIST@ 004130d0     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000090f4       ??_C@_0CE@KDDMJLGF@Operation?5cancelled?5?$CIPJ_ECANCELL@ 004130f4     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:00009118       ??_C@_0CC@OEEEEEML@Invalid?5operation?5?$CIPJ_EINVALIDOP@ 00413118     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:0000913c       ??_C@_0CP@BAIBJOJE@Option?1operation?5is?5not?5supporte@ 0041313c     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:0000916c       ??_C@_0BK@OMPILOH@Object?5is?5busy?5?$CIPJ_EBUSY?$CJ?$AA@ 0041316c     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:00009188       ??_C@_0DF@MIFNAIHL@Too?5many?5objects?5of?5the?5specifie@ 00413188     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000091c0       ??_C@_0CD@JOGIDHPJ@Operation?5timed?5out?5?$CIPJ_ETIMEDOU@ 004131c0     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000091e4       ??_C@_0BI@HHGDCAID@BUG?5DETECTED?$CB?5?$CIPJ_EBUG?$CJ?$AA@ 004131e4     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000091fc       ??_C@_0BO@GOLCMJKK@Not?5enough?5memory?5?$CIPJ_ENOMEM?$CJ?$AA@ 004131fc     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:0000921c       ??_C@_0BJ@JNKLPII@Not?5found?5?$CIPJ_ENOTFOUND?$CJ?$AA@ 0041321c     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:00009238       ??_C@_0CA@GJABNEKD@Name?5too?5long?5?$CIPJ_ENAMETOOLONG?$CJ?$AA@ 00413238     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:00009258       ??_C@_0CG@CBCJBJGD@Invalid?5value?5or?5argument?5?$CIPJ_EI@ 00413258     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:00009280       ??_C@_0CO@GABEOAFF@Too?5many?5connecting?5sockets?5?$CIPJ_@ 00413280     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000092b0       ??_C@_0CA@DCLOOJGD@Pending?5operation?5?$CIPJ_EPENDING?$CJ?$AA@ 004132b0     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000092d0       ??_C@_0BM@FLPPOGAG@Unknown?5Error?5?$CIPJ_EUNKNOWN?$CJ?$AA@ 004132d0     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000093b0       ??_C@_0BH@ONDLFCEA@Unknown?5pjlib?5error?5?$CFd?$AA@ 004133b0     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000093c8       ??_C@_0BB@BIKLJNJD@Unknown?5error?5?$CFd?$AA@ 004133c8     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000093dc       ??_C@_07PBILKAFL@Success?$AA@ 004133dc     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000093e4       ??_C@_06DJHOIPC@?$CFs?3?5?$CFs?$AA@ 004133e4     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000093ec       ??_C@_05NAOIJFC@Error?$AA@ 004133ec     pjlib-i386-win32-vc8-release:errno.obj
+ 0002:000093f4       ??_C@_03FEFJNEK@Sat?$AA@   004133f4     pjlib-i386-win32-vc8-release:log.obj
+ 0002:000093f8       ??_C@_03IDIOELNC@Fri?$AA@  004133f8     pjlib-i386-win32-vc8-release:log.obj
+ 0002:000093fc       ??_C@_03IOFIKPDN@Thu?$AA@  004133fc     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009400       ??_C@_03MHOMLAJA@Wed?$AA@  00413400     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009404       ??_C@_03NAGEINEP@Tue?$AA@  00413404     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009408       ??_C@_03PDAGKDH@Mon?$AA@   00413408     pjlib-i386-win32-vc8-release:log.obj
+ 0002:0000940c       ??_C@_03KOEHGMDN@Sun?$AA@  0041340c     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009410       ??_C@_06HGKAKJPG@DETRC?3?$AA@ 00413410     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009418       ??_C@_06ELIFFDKB@TRACE?3?$AA@ 00413418     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009420       ??_C@_06DNOFLLB@DEBUG?3?$AA@ 00413420     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009428       ??_C@_06ICKKLHPE@?5INFO?3?$AA@ 00413428     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009430       ??_C@_06OHJPOJDB@?5WARN?3?$AA@ 00413430     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009438       ??_C@_06PONDCDME@ERROR?3?$AA@ 00413438     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009440       ??_C@_06DDFOEFIF@FATAL?3?$AA@ 00413440     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009448       ??_C@_0BO@BGMDCDKP@?$DMlogging?5error?3?5msg?5too?5long?$DO?$AA@ 00413448     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009468       ??_C@_0BA@CLLJDBF@?4?4?2src?2pj?2log?4c?$AA@ 00413468     pjlib-i386-win32-vc8-release:log.obj
+ 0002:00009478       ??_C@_0BB@PKFOFEEC@?4?4?2src?2pj?2pool?4c?$AA@ 00413478     pjlib-i386-win32-vc8-release:pool.obj
+ 0002:0000948c       ??_C@_05KHEDLION@thr?$CFp?$AA@ 0041348c     pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0002:00009494       ??_C@_0CD@GPHECFNA@Thread?5stack?5max?5usage?$DN?$CFu?5by?5?$CFs?3@ 00413494     pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0002:000094b8       ??_C@_0BK@BHGJHPMG@?4?4?2src?2pj?2os_core_win32?4c?$AA@ 004134b8     pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0002:000094d4       ??_C@_05EJDHHBFJ@mtx?$CFp?$AA@ 004134d4     pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0002:000094dc       ??_C@_0BA@FNCACAIG@os_core_win32?4c?$AA@ 004134dc     pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0002:000094ec       ??_C@_0BP@NGEKBPIB@pjlib?5?$CFs?5for?5win32?5initialized?$AA@ 004134ec     pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0002:0000950c       ??_C@_0BA@NGJFHJA@PJLIB?1No?5memory?$AA@ 0041350c     pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0002:0000951c       ??_C@_04IFCNACLH@pj?$CFp?$AA@ 0041351c     pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0002:00009524       ??_C@_0CI@EAKIIBBA@Main?5thread?5stack?5max?5usage?$DN?$CFu?5b@ 00413524     pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0002:0000954c       ??_C@_00CNPNBAHC@?$AA@     0041354c     pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0002:00009550       ??_C@_0M@IGFPEOLJ@cachingpool?$AA@ 00413550     pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0002:0000955c       ??_C@_0DD@ECGDPCBA@Pool?5is?5not?5released?5by?5applicat@ 0041355c     pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0002:00009590       ??_C@_0BJ@MJKAJPML@?4?4?2src?2pj?2pool_caching?4c?$AA@ 00413590     pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0002:000095ac       ??_C@_0CB@GKBJPDKG@?5?5Total?5?$CF9d?5of?5?$CF9d?5?$CI?$CFd?5?$CF?$CF?$CJ?5used?$CB@ 004135ac     pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0002:000095d0       ??_C@_0CA@MMLIKIEG@?5?5?5?$CF16s?3?5?$CF8d?5of?5?$CF8d?5?$CI?$CFd?$CF?$CF?$CJ?5used?$AA@ 004135d0     pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0002:000095f0       ??_C@_0BM@IDLDGCC@?5?5Dumping?5all?5active?5pools?3?$AA@ 004135f0     pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0002:0000960c       ??_C@_0CN@DOKPIIOH@?5?5?5Capacity?$DN?$CFu?0?5max_capacity?$DN?$CFu?0@ 0041360c     pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0002:0000963c       ??_C@_08COPEICHG@cachpool?$AA@ 0041363c     pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0002:00009648       ??_C@_0BH@BBPHJKOA@?5Dumping?5caching?5pool?3?$AA@ 00413648     pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0002:00009660       ??_C@_0BP@JMMENEAD@?4?4?2src?2pj?2pool_policy_malloc?4c?$AA@ 00413660     pjlib-i386-win32-vc8-release:pool_policy_malloc.obj
+ 0002:00009680       __real@412e848000000000    00413680     pjlib-i386-win32-vc8-release:os_timestamp_common.obj
+ 0002:00009688       ??_C@_0DB@KFPHELLI@No?5host?5data?5of?5that?5type?5was?5fo@ 00413688     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:000096bc       ??_C@_0CD@OEALOMDH@Host?5not?5found?5?$CIWSAHOST_NOT_FOUN@ 004136bc     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:000096e0       ??_C@_0CL@GFDHEKLB@Graceful?5shutdown?5in?5progress?5?$CIW@ 004136e0     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:0000970c       ??_C@_0CO@HPDHHDHA@WSAStartup?5not?5yet?5called?5?$CIWSANO@ 0041370c     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:0000973c       ??_C@_0DC@BLAKHMMJ@Winsock?5version?5out?5of?5range?5?$CIWS@ 0041373c     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009770       ??_C@_0CP@IBAEMKGH@Network?5system?5is?5unavailable?5?$CIW@ 00413770     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:000097a0       ??_C@_0CP@MLAFGPOA@Too?5many?5levels?5of?5remote?5in?5pat@ 004137a0     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:000097d0       ??_C@_0CC@IMLIDHNH@Stale?5NFS?5file?5handle?5?$CIWSAESTALE@ 004137d0     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:000097f4       ??_C@_0CA@MIOFDKMA@Disc?5quota?5exceeded?5?$CIWSAEDQUOT?$CJ?$AA@ 004137f4     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009814       ??_C@_0BL@IGHJMJKO@Too?5many?5users?5?$CIWSAEUSERS?$CJ?$AA@ 00413814     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009830       ??_C@_0CB@GPCGLHOJ@Too?5many?5processes?5?$CIWSAEPROCLIM?$CJ@ 00413830     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009854       ??_C@_0CD@NEFLEHEG@Directory?5not?5empty?5?$CIWSAENOTEMPT@ 00413854     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009878       ??_C@_0CD@ECJOJHBH@No?5route?5to?5host?5?$CIWSAEHOSTUNREAC@ 00413878     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:0000989c       ??_C@_0BM@NCJCEEDP@Host?5is?5down?5?$CIWSAEHOSTDOWN?$CJ?$AA@ 0041389c     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:000098b8       ??_C@_0CF@MOFKOMBB@File?5name?5too?5long?5?$CIWSAENAMETOOL@ 004138b8     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:000098e0       ??_C@_0CN@FCKBNFMB@Too?5many?5levels?5of?5symbolic?5link@ 004138e0     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009910       ??_C@_0CF@JMKFBJH@Connection?5refused?5?$CIWSAECONNREFU@ 00413910     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009938       ??_C@_0CE@IIKHBGF@Connection?5timed?5out?5?$CIWSAETIMEDO@ 00413938     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:0000995c       ??_C@_0DE@CAILNFFE@Too?5many?5references?0?5can?8t?5splic@ 0041395c     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009990       ??_C@_0DA@JGJMJPNM@Can?8t?5send?5after?5socket?5shutdown@ 00413990     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:000099c0       ??_C@_0CG@CECDMHLL@Socket?5is?5not?5connected?5?$CIWSAENOT@ 004139c0     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:000099e8       ??_C@_0CJ@JOPBNNOD@Socket?5is?5already?5connected?5?$CIWSA@ 004139e8     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009a14       ??_C@_0CH@EKNGIMKN@No?5buffer?5space?5available?5?$CIWSAEN@ 00413a14     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009a3c       ??_C@_0CJ@PJHCFAAN@Connection?5reset?5by?5peer?5?$CIWSAECO@ 00413a3c     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009a68       ??_C@_0DD@PGDIHOBG@Software?5caused?5connection?5abort@ 00413a68     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009a9c       ??_C@_0CE@LJEEEFEC@Net?5connection?5reset?5?$CIWSAENETRES@ 00413a9c     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009ac0       ??_C@_0CI@NKJAACME@Network?5is?5unreachable?5?$CIWSAENETU@ 00413ac0     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009ae8       ??_C@_0BO@IICKDHLJ@Network?5is?5down?5?$CIWSAENETDOWN?$CJ?$AA@ 00413ae8     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009b08       ??_C@_0DC@FJJPJPOD@Can?8t?5assign?5requested?5address?5?$CI@ 00413b08     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009b3c       ??_C@_0CH@OCKNFBKE@Address?5already?5in?5use?5?$CIWSAEADDR@ 00413b3c     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009b64       ??_C@_0CP@MMKHGIFC@Address?5family?5not?5supported?5?$CIWS@ 00413b64     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009b94       ??_C@_0DA@GFNBENIG@Protocol?5family?5not?5supported?5?$CIW@ 00413b94     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009bc4       ??_C@_0DC@GJMFANID@Operation?5not?5supported?5on?5socke@ 00413bc4     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009bf8       ??_C@_0CP@JLBNHCOL@Socket?5type?5not?5supported?5?$CIWSAES@ 00413bf8     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009c28       ??_C@_0CM@HPGHEHCE@Protocol?5not?5supported?5?$CIWSAEPROT@ 00413c28     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009c54       ??_C@_0CF@HNFLHOHA@Bad?5protocol?5option?5?$CIWSAENOPROTO@ 00413c54     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009c7c       ??_C@_0CP@MMIMIEMF@Protocol?5wrong?5type?5for?5socket?5?$CI@ 00413c7c     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009cac       ??_C@_0BP@LNFPBFEK@Message?5too?5long?5?$CIWSAEMSGSIZE?$CJ?$AA@ 00413cac     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009ccc       ??_C@_0CP@HCDICECK@Destination?5address?5required?5?$CIWS@ 00413ccc     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009cfc       ??_C@_0CN@PAFKDEBN@Socket?5operation?5on?5non?9socket?5?$CI@ 00413cfc     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009d2c       ??_C@_0CM@BEMCBKDH@Operation?5already?5in?5progress?5?$CIW@ 00413d2c     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009d58       ??_C@_0CL@DKGHEPCD@Operation?5now?5in?5progress?5?$CIWSAEI@ 00413d58     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009d84       ??_C@_0CH@GCPPFMGM@Operation?5would?5block?5?$CIWSAEWOULD@ 00413d84     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009dac       ??_C@_0CC@HMKKNDGL@Too?5many?5open?5sockets?5?$CIWSAEMFILE@ 00413dac     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009dd0       ??_C@_0BN@FEIDINKH@Invalid?5argument?5?$CIWSAEINVAL?$CJ?$AA@ 00413dd0     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009df0       ??_C@_0BI@LAKHPJJ@Bad?5address?5?$CIWSAEFAULT?$CJ?$AA@ 00413df0     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009e08       ??_C@_0BO@BMBEEPBP@Permission?5denied?5?$CIWSAEACCES?$CJ?$AA@ 00413e08     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009e28       ??_C@_0BL@OKPDNKLH@Bad?5file?5number?5?$CIWSAEBADF?$CJ?$AA@ 00413e28     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009e44       ??_C@_0CD@FNMHLHMI@Interrupted?5system?5call?5?$CIWSAEINT@ 00413e44     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:00009ff8       ??_C@_0BE@JPHLLAEM@Win32?5error?5code?5?$CFu?$AA@ 00413ff8     pjlib-i386-win32-vc8-release:os_error_win32.obj
+ 0002:0000a00c       ??_C@_0BD@ELEDKDKB@?4?4?2src?2pj?2string?4c?$AA@ 0041400c     pjlib-i386-win32-vc8-release:string.obj
+ 0002:0000a020       ??_C@_02DKCKIIND@?$CFs?$AA@ 00414020     pjlib-i386-win32-vc8-release:log_writer_stdout.obj
+ 0002:0000a024       ??_C@_0BO@KBBNBAFA@?4?4?2src?2pj?2log_writer_stdout?4c?$AA@ 00414024     pjlib-i386-win32-vc8-release:log_writer_stdout.obj
+ 0002:0000a044       ??_C@_05COGJMIFA@2?45?45?$AA@ 00414044     pjlib-i386-win32-vc8-release:config.obj
+ 0002:0000a04c       ??_C@_08DOCHLGNA@config?4c?$AA@ 0041404c     pjlib-i386-win32-vc8-release:config.obj
+ 0002:0000a058       ??_C@_0N@GJOLEKJC@?$DMInvalid?5ID?$DO?$AA@ 00414058     pjlib-i386-win32-vc8-release:except.obj
+ 0002:0000a068       ??_C@_0N@LJPLLMIL@exception?5?$CFd?$AA@ 00414068     pjlib-i386-win32-vc8-release:except.obj
+ 0002:0000a078       ??_C@_08PDFMOJIE@except?4c?$AA@ 00414078     pjlib-i386-win32-vc8-release:except.obj
+ 0002:0000a084       ??_C@_0CD@KFHCCJFN@?$CB?$CB?$CBFATAL?3?5unhandled?5exception?5?$CFs@ 00414084     pjlib-i386-win32-vc8-release:except.obj
+ 0002:0000a0a8       _PJ_GUID_STRING_LENGTH     004140a8     pjlib-i386-win32-vc8-release:guid_win32.obj
+ 0002:0000a0ac       ??_C@_0BH@DLOCENPK@?4?4?2src?2pj?2guid_win32?4c?$AA@ 004140ac     pjlib-i386-win32-vc8-release:guid_win32.obj
+ 0002:0000a0c4       _PJ_AF_UNSPEC              004140c4     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0c8       _PJ_AF_UNIX                004140c8     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0cc       _PJ_AF_INET                004140cc     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0d0       _PJ_AF_INET6               004140d0     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0d4       _PJ_AF_PACKET              004140d4     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0d8       _PJ_AF_IRDA                004140d8     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0dc       _PJ_SOCK_STREAM            004140dc     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0e0       _PJ_SOCK_DGRAM             004140e0     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0e4       _PJ_SOCK_RAW               004140e4     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0e8       _PJ_SOCK_RDM               004140e8     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0ec       _PJ_SOL_SOCKET             004140ec     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0f0       _PJ_SOL_IP                 004140f0     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0f4       _PJ_SOL_TCP                004140f4     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0f8       _PJ_SOL_UDP                004140f8     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a0fc       _PJ_SOL_IPV6               004140fc     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a100       _PJ_IP_TOS                 00414100     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a104       _PJ_IPTOS_LOWDELAY         00414104     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a108       _PJ_IPTOS_THROUGHPUT       00414108     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a10c       _PJ_IPTOS_RELIABILITY      0041410c     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a110       _PJ_IPTOS_MINCOST          00414110     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a114       _PJ_SO_TYPE                00414114     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a118       _PJ_SO_RCVBUF              00414118     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a11c       _PJ_SO_SNDBUF              0041411c     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a120       _PJ_TCP_NODELAY            00414120     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a124       _PJ_SO_REUSEADDR           00414124     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a128       _PJ_SO_NOSIGPIPE           00414128     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a12c       _PJ_SO_PRIORITY            0041412c     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a130       _PJ_IP_MULTICAST_IF        00414130     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a134       _PJ_IP_MULTICAST_TTL       00414134     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a138       _PJ_IP_MULTICAST_LOOP      00414138     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a13c       _PJ_IP_ADD_MEMBERSHIP      0041413c     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a140       _PJ_IP_DROP_MEMBERSHIP     00414140     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a144       _PJ_MSG_OOB                00414144     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a148       _PJ_MSG_PEEK               00414148     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a14c       _PJ_MSG_DONTROUTE          0041414c     pjlib-i386-win32-vc8-release:sock_bsd.obj
+ 0002:0000a158       __load_config_used         00414158     MSVCRT:loadcfg.obj
+ 0002:0000a1a0       ___safe_se_handler_table   004141a0     <linker-defined>
+ 0002:0000a1a4       ___rtc_iaa                 004141a4     MSVCRT:_initsect_.obj
+ 0002:0000a1a8       ___rtc_izz                 004141a8     MSVCRT:_initsect_.obj
+ 0002:0000a1ac       ___rtc_taa                 004141ac     MSVCRT:_initsect_.obj
+ 0002:0000a1b0       ___rtc_tzz                 004141b0     MSVCRT:_initsect_.obj
+ 0002:0000a234       __IMPORT_DESCRIPTOR_ole32  00414234     ole32:ole32.dll
+ 0002:0000a248       __IMPORT_DESCRIPTOR_WS2_32 00414248     ws2_32:WS2_32.dll
+ 0002:0000a25c       __IMPORT_DESCRIPTOR_MSVCR90 0041425c     MSVCRT:MSVCR90.dll
+ 0002:0000a270       __IMPORT_DESCRIPTOR_WINMM  00414270     winmm:WINMM.dll
+ 0002:0000a284       __IMPORT_DESCRIPTOR_KERNEL32 00414284     kernel32:KERNEL32.dll
+ 0002:0000a298       __NULL_IMPORT_DESCRIPTOR   00414298     ole32:ole32.dll
+ 0003:00000db0       _pj_pool_factory_default_policy 00415db0     pjlib-i386-win32-vc8-release:pool_policy_malloc.obj
+ 0003:00000dc4       _PJ_VERSION                00415dc4     pjlib-i386-win32-vc8-release:config.obj
+ 0003:00000e20       ___security_cookie         00415e20     MSVCRT:gs_cookie.obj
+ 0003:00000e24       ___security_cookie_complement 00415e24     MSVCRT:gs_cookie.obj
+ 0003:00000e30       ___native_dllmain_reason   00415e30     MSVCRT:natstart.obj
+ 0003:00000e34       ___native_vcclrit_reason   00415e34     MSVCRT:natstart.obj
+ 0003:00000e38       ___globallocalestatus      00415e38     MSVCRT:xthdloc.obj
+ 0003:00000e3c       ___defaultmatherr          00415e3c     MSVCRT:merr.obj
+ 0003:00001a94       __dowildcard               00416a94     MSVCRT:wildcard.obj
+ 0003:00001a98       __newmode                  00416a98     MSVCRT:_newmode.obj
+ 0003:00001a9c       __commode                  00416a9c     MSVCRT:xncommod.obj
+ 0003:00001aa0       __fmode                    00416aa0     MSVCRT:xtxtmode.obj
+ 0003:00001aa4       _PJ_NO_MEMORY_EXCEPTION    00416aa4     <common>
+ 0003:00001aa8       ___sse2_available          00416aa8     <common>
+ 0003:00001aac       __adjust_fdiv              00416aac     <common>
+ 0003:00001ab0       ___native_startup_state    00416ab0     <common>
+ 0003:00001ab4       ___native_startup_lock     00416ab4     <common>
+ 0003:00001ab8       ___onexitend               00416ab8     <common>
+ 0003:00001abc       ___onexitbegin             00416abc     <common>
+ 0003:00001ac0       ___dyn_tls_init_callback   00416ac0     <common>
+
+ entry point at        0001:00007c85
+
+ Static symbols
+
+ 0001:00000000       _PJMEDIA_SPF               00401000 f   auddemo.obj
+ 0001:00000020       _PJMEDIA_AFD_SPF           00401020 f   auddemo.obj
+ 0001:00000050       _PJMEDIA_PIA_SRATE         00401050 f   auddemo.obj
+ 0001:00000060       _PJMEDIA_PIA_CCNT          00401060 f   auddemo.obj
+ 0001:00000070       _PJMEDIA_PIA_BITS          00401070 f   auddemo.obj
+ 0001:00000080       _PJMEDIA_PIA_SPF           00401080 f   auddemo.obj
+ 0001:000000b0       _app_perror                004010b0 f   auddemo.obj
+ 0001:000000f0       _list_devices              004010f0 f   auddemo.obj
+ 0001:000001e0       _decode_caps               004011e0 f   auddemo.obj
+ 0001:00000280       _show_dev_info             00401280 f   auddemo.obj
+ 0001:00000680       _test_device               00401680 f   auddemo.obj
+ 0001:00000940       _wav_rec_cb                00401940 f   auddemo.obj
+ 0001:00000950       _record                    00401950 f   auddemo.obj
+ 0001:00000b40       _wav_play_cb               00401b40 f   auddemo.obj
+ 0001:00000b50       _play_file                 00401b50 f   auddemo.obj
+ 0001:00000d30       _print_menu                00401d30 f   auddemo.obj
+ 0001:000012a0       _pj_isqrt                  004022a0 f   pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0001:000012e0       _pj_math_stat_update       004022e0 f   pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0001:00001360       _pj_math_stat_get_stddev   00402360 f   pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0001:000013b0       _play_cb                   004023b0 f   pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0001:00001490       _rec_cb                    00402490 f   pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0001:00001550       _app_perror                00402550 f   pjmedia-audiodev-i386-win32-vc8-release:audiotest.obj
+ 0001:00001980       _pjmedia_frame_ext_append_subframe 00402980 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:000019d0       _pjmedia_frame_ext_copy_payload 004029d0 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00001a80       _build_dev_info            00402a80 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00001bd0       _factory_refresh           00402bd0 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00001eb0       _factory_destroy           00402eb0 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00001ee0       _factory_get_dev_count     00402ee0 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00001ef0       _factory_get_dev_info      00402ef0 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00001f30       _factory_default_param     00402f30 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00002010       _init_waveformatex         00403010 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:000020f0       _init_player_stream        004030f0 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:000022e0       _init_capture_stream       004032e0 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:000024c0       _wmme_dev_thread           004034c0 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00002910       _stream_get_cap            00403910 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:000029a0       _stream_set_cap            004039a0 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00002a20       _stream_start              00403a20 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00002aa0       _stream_stop               00403aa0 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00002b30       _stream_destroy            00403b30 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00002c90       _factory_init              00403c90 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00002cc0       _factory_create_stream     00403cc0 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00002f10       _stream_get_param          00403f10 f   pjmedia-audiodev-i386-win32-vc8-release:wmme_dev.obj
+ 0001:00003470       _make_global_index         00404470 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:000034b0       _lookup_dev                004044b0 f   pjmedia-i386-win32-vc8-release:audiodev.obj
+ 0001:00003970       _file_put_frame            00404970 f   pjmedia-i386-win32-vc8-release:wav_writer.obj
+ 0001:00003a70       _file_get_frame            00404a70 f   pjmedia-i386-win32-vc8-release:wav_writer.obj
+ 0001:00003a80       _file_on_destroy           00404a80 f   pjmedia-i386-win32-vc8-release:wav_writer.obj
+ 0001:00003f30       _fill_buffer               00404f30 f   pjmedia-i386-win32-vc8-release:wav_player.obj
+ 0001:00004050       _file_get_frame            00405050 f   pjmedia-i386-win32-vc8-release:wav_player.obj
+ 0001:000042b0       _file_on_destroy           004052b0 f   pjmedia-i386-win32-vc8-release:wav_player.obj
+ 0001:000042d0       _create_file_port          004052d0 f   pjmedia-i386-win32-vc8-release:wav_player.obj
+ 0001:00004870       _pjlib_error               00405870 f   pjlib-i386-win32-vc8-release:errno.obj
+ 0001:00004ab0       _invoke_log                00405ab0 f   pjlib-i386-win32-vc8-release:errno.obj
+ 0001:00004ad0       _pj_perror_imp             00405ad0 f   pjlib-i386-win32-vc8-release:errno.obj
+ 0001:00004b90       _logging_shutdown          00405b90 f   pjlib-i386-win32-vc8-release:log.obj
+ 0001:00005270       _pj_pool_create_block      00406270 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:000054a0       _reset_pool                004064a0 f   pjlib-i386-win32-vc8-release:pool.obj
+ 0001:000057f0       _thread_main@4             004067f0 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005920       _init_mutex                00406920 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:00005c10       _pj_sem_wait_for           00406c10 f   pjlib-i386-win32-vc8-release:os_core_win32.obj
+ 0001:000065c0       _cpool_create_pool         004075c0 f   pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0001:000066f0       _cpool_release_pool        004076f0 f   pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0001:000067c0       _cpool_dump_status         004077c0 f   pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0001:00006910       _cpool_on_block_alloc      00407910 f   pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0001:00006930       _cpool_on_block_free       00407930 f   pjlib-i386-win32-vc8-release:pool_caching.obj
+ 0001:00006a00       _default_block_alloc       00407a00 f   pjlib-i386-win32-vc8-release:pool_policy_malloc.obj
+ 0001:00006a60       _default_block_free        00407a60 f   pjlib-i386-win32-vc8-release:pool_policy_malloc.obj
+ 0001:00006aa0       _default_pool_callback     00407aa0 f   pjlib-i386-win32-vc8-release:pool_policy_malloc.obj
+ 0001:00007290       _get_base_time             00408290 f   pjlib-i386-win32-vc8-release:os_time_win32.obj
+ 0001:00007580       _guid_to_str               00408580 f   pjlib-i386-win32-vc8-release:guid_win32.obj
+ 0001:000076c0       _create_mutex_lock         004086c0 f   pjlib-i386-win32-vc8-release:lock.obj
+ 0001:00007760       _null_op                   00408760 f   pjlib-i386-win32-vc8-release:lock.obj
+ 0001:000077f0       _pool_buf_cleanup          004087f0 f   pjlib-i386-win32-vc8-release:pool_buf.obj
+ 0001:00007830       _stack_alloc               00408830 f   pjlib-i386-win32-vc8-release:pool_buf.obj
+ 0001:000079e3       _pre_cpp_init              004089e3 f   MSVCRT:crtexe.obj
+ 0001:00007a2e       ___tmainCRTStartup         00408a2e f   MSVCRT:crtexe.obj
+ 0001:00007ba4       _pre_c_init                00408ba4 f   MSVCRT:crtexe.obj
+ 0001:0000831e       _has_osfxsr_set            0040931e f   MSVCRT:cpu_disp.obj
